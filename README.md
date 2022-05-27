@@ -1,6 +1,6 @@
 # TiktokCampAssignmentA
 
-Hi there, thank you for playing Pop The Pirate, a hangman themed game! To start, simply click on LaunchPopThePirate. It should appear like this:
+Hi there, thank you for playing Pop The Pirate, a hangman themed game! To start, simply download the zip file, decompress the file and then click on LaunchPopThePirate. It should appear like this:
 
 ![LaptopResolution](https://user-images.githubusercontent.com/94526711/170663523-f3fe014f-f9eb-4b0f-8de1-ce87f23e97a0.png)
 
