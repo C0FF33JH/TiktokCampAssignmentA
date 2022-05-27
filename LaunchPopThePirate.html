@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        </style>
+
+
+    <!-- Bootstrap 4 CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    
+    <title>PopThePirate</title> 
+</head>
+<body background="./images/PBackground.jpg">
+<div class="container">
+    <h1 class="text-center" style="font-size:200%; font-family:fantasy; color:white; ">Pop The Pirate!</h1>
+    <div class="text-right" style="font-family:fantasy; color:white">Wrong Guesses: <span id="mistakes">0</span> of <span id="maxWrong">6</span></div>
+    <div class="text-center">
+        <img style="width:50%;" id="hangmanPic" src="./images/Pirate0.png" alt=" ">
+        <p style="font-size:150%; font-family:fantasy; color:white">Guess the sea creature to save Benny the pirate!</p>
+        <p id="wordSpotlight" style="font-size:120%; color:white">The word to be guessed goes here</p>
+        <div id="keyboard"></div>
+        <button class="btn btn-info" onClick="reset()">Reset</button>
+    </div>
+</div>
+
+
+<script src="./js/hangman.js" autostart="true"></script>
+
+</body>
+</html>
